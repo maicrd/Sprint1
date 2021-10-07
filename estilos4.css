@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenido{
+    margin: 3px;
+}
+.caja{
+    display: table-cell; 
+    padding: 10px;
+}
