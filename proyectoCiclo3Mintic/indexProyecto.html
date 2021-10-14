@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/templatemo-comparto.css" rel="stylesheet" />
+    <title>Hola Machine learning</title>
+<!--
+
+Comparto TemplateMo
+
+https://templatemo.com/tm-544-comparto
+
+-->
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <a id="button"><i class="fas fa-angle-up fa-2x"></i></a>
+    <div class="container-fluid">
+        <div class="tm-site-header tm-mb-1">
+            <div class="tm-site-name-container tm-bg-color-1">
+                <h1 class="tm-text-white">HOLA MACHINE LEARNING</h1>
+            </div>
+            
+        </div>
+        <section class="tm-mb-1" id="about">
+            <div class="tm-row tm-about-row">
+                <div class="tm-section-1-l">
+                    <img src="img/artificial-intelligence-2.jpg" alt="About image" class="tm-img-responsive">
+                </div>
+                <article class="tm-section-1-r tm-bg-color-8">
+                    <h2 class="tm-mb-2 tm-title-color">¿Qué es Machine Learning?</h2>
+                    <p>Machine learning es una forma de la Inteligencia Artificial IA que permite a un sistema aprender de los datos en lugar de aprender mediante la programación explícita. Sin embargo, machine learning no es un proceso sencillo. Conforme el algoritmo ingiere datos de entrenamiento, es posible producir modelos más precisos basados en datos.</p>
+                    <p>Un modelo de machine learning es la salida de información que se genera cuando entrena su algoritmo de machine learning con datos. Después del entrenamiento, al proporcionar un modelo con una entrada, se le dará una salida.</p>
+                                        
+                    
+                </article>
+            </div>
+        </section>
+        <div class="tm-bg-color-1 tm-mb-1 tm-row tm-social-row">
+            <div class="tm-icon">
+                <div class="tm-icon-inner">
+                    <a href="#gallery">
+                        <i class="fas fa-chart-bar fa-4x tm-mb-1"></i>
+                        <p>PREDICTOR SX <br> Nuestra aplicación predice el valor de las acciones de su portafolio de inversiones en la bolsa de valores</p>
+                    </a>
+                </div>
+            </div>
+            <div class="tm-icon">
+                <div class="tm-icon-inner">
+                    <a href="#contact">
+                        <i class="fas fa-images fa-4x tm-mb-1"></i>
+                        <p>APP POR DEFINIR <br> (Yuliana y Maicol)</p>
+                    </a>
+                </div>
+            </div>
+            <div class="tm-icon">
+                <div class="tm-icon-inner">
+                    <a href="#contact">
+                        <i class="fas fa-images fa-4x tm-mb-1"></i>
+                        <p>Opcional</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="tm-mb-1 tm-row tm-services-row" id="services">
+            <div class="tm-section-2-l">
+                <article class="tm-bg-color-6 tm-box-pad tm-mb-1">
+                    <h2 class="tm-mb-2">FORMULARIOS</h2>
+                    <p>Implementar en este espacio los formularios requeridos en el proyecto <br> <br> Responsable: Felipe </p>
+                    <p class="tm-mb-0"></p>
+                </article>
+                <div class="tm-bg-color-7 tm-em-box">
+                    <p class="tm-text-color-2">Nam iaculis, urna ut laoreet aliquam, massa magna dapibus nibh, at pellentesque lectus odio non risus. Nulla ac sodales est, vel iaculis. Text #333 . BG #DDD</p>
+                    <a href="#gallery" class="tm-btn tm-btn-2">Read More</a>
+                </div>
+            </div>
+            <div class="tm-section-2-r">
+                <img src="img/comparto-image-02.jpg" alt="Services image" class="tm-img-responsive">
+            </div>
+        </section>
+        
+        
+        <div class="tm-mb-4 text-center tm-social-s">
+            <a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+            <a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+            <a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+            <a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
+        </div>
+        <footer class="text-center tm-mb-1">
+            <p>Copyright &copy; 2021 Grupo1 53627 Misión TIC
+            
+            - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateIA</a></p>
+        </footer>
+    </div> <!-- .container -->
+    <script src="js/jquery.min.js"></script> <!-- https://jquery.com/download/ -->
+    <script src="js/imagesloaded.pkgd.min.js"></script> <!-- https://imagesloaded.desandro.com/ -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- https://isotope.metafizzy.co/ -->
+    <script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script>
+
+        // Scroll to Top button
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+        // DOM is ready
+        $(function () {
+            // Single Page Nav
+            $('#tm-nav').singlePageNav({ speed: 600 });
+
+            // Smooth Scroll (https://css-tricks.com/snippets/jquery/smooth-scrolling/)
+            $('a[href*="#"]')
+                // Remove links that don't actually link to anything
+                .not('[href="#"]')
+                .not('[href="#0"]')
+                .click(function (event) {
+                    // On-page links
+                    if (
+                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                        &&
+                        location.hostname == this.hostname
+                    ) {
+                        // Figure out element to scroll to
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        // Does a scroll target exist?
+                        if (target.length) {
+                            // Only prevent default if animation is actually gonna happen
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 600, function () {
+                                // Callback after animation
+                                // Must change focus!
+                                var $target = $(target);
+                                $target.focus();
+                                if ($target.is(":focus")) { // Checking if the target was focused
+                                    return false;
+                                } else {
+                                    $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                    $target.focus(); // Set focus again
+                                };
+                            });
+                        }
+                    }
+                });
+
+            /* Isotope Gallery */
+
+            // init isotope
+            var $gallery = $(".tm-gallery").isotope({
+                itemSelector: ".tm-gallery-item",
+                layoutMode: "fitRows"
+            });
+            // layout Isotope after each image loads
+            $gallery.imagesLoaded().progress(function () {
+                $gallery.isotope("layout");
+            });
+
+            $(".filters-button-group").on("click", "a", function () {
+                var filterValue = $(this).attr("data-filter");
+                $gallery.isotope({ filter: filterValue });
+            });
+
+            $(".tabgroup > div").hide();
+            $(".tabgroup > div:first-of-type").show();
+            $(".tabs a").click(function (e) {
+                e.preventDefault();
+                var $this = $(this),
+                    tabgroup = "#" + $this.parents(".tabs").data("tabgroup"),
+                    others = $this
+                        .closest("li")
+                        .siblings()
+                        .children("a"),
+                    target = $this.attr("href");
+                others.removeClass("active");
+                $this.addClass("active");
+            });
+        });
+    </script>
+</body>
+</html>
